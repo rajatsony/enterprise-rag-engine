@@ -1,0 +1,16 @@
+# Environments
+venv/
+env/
+.env
+
+# Cache
+__pycache__/
+*.pyc
+
+# Vector Database and Extracted Data
+# (We don't push databases; we provide instructions to generate them)
+*.faiss
+*.json
+
+# Ignore Mac system files if you ever switch OS
+.DS_Store
